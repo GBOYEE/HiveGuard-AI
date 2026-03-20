@@ -31,6 +31,8 @@ HiveGuard AI implements a three‑stage pipeline:
 
 The result: code that is both helpful and secure, with an auditable trail.
 
+**Security Gate**: After alignment, code is scanned with `web3-security-scout`. If any High or Critical vulnerabilities are found, the pipeline rejects the output and requests regeneration. See `docs/security_gate.md`.
+
 ---
 
 ## Repository Structure
