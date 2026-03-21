@@ -1,0 +1,1 @@
+"""HiveGuard AI – generate → align → audit pipeline."""

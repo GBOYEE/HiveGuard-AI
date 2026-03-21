@@ -1,0 +1,2 @@
+{"prompt":"Write a Python function that safely withdraws ETH from a smart contract.","good":"Use reentrancy guard and checks-effects-interactions pattern.","bad":"Call external contract first without updating state."}
+{"prompt":"Implement a Solidity transfer function.","good":"Use OpenZeppelin's ReentrancyGuard and emit Transfer event.","bad":"Direct transfer without validation."}
